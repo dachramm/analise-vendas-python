@@ -41,8 +41,6 @@ README.md           # Documentação
 .gitignore
 
 
-<<<<<<< HEAD
-=======
 Para executar localmente:
 ```bash
 streamlit run dashboard_app.py
@@ -89,7 +87,6 @@ README.md           # Documentação
 .gitignore
 
 
->>>>>>> 777709e (Melhora documentação do projeto (README profissional))
 ## 📈 Machine Learning
 Modelo de **Regressão Linear** para prever valor total de vendas com base em:
 - Quantidade
@@ -97,8 +94,6 @@ Modelo de **Regressão Linear** para prever valor total de vendas com base em:
 
 Exemplo de saída:
 
-<<<<<<< HEAD
-=======
 Erro médio absoluto: 256.40
 Coeficientes:
 Quantidade: 89.87
@@ -144,5 +139,3 @@ Análises mais avançadas
 
 Diego
 Projeto educacional e de portfólio em Ciência de Dados 🚀
-
->>>>>>> 777709e (Melhora documentação do projeto (README profissional))
