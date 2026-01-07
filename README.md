@@ -32,17 +32,13 @@ Este repositório faz parte do meu aprendizado prático em **Data Science aplica
 
 ## 📂 Estrutura do Projeto
 
-analise_vendas/
-
-│
-├── dados/
-│ └── vendas.csv
-├── analise_vendas.py # Análise exploratória
-├── ml_simples.py # Modelo de Machine Learning
-├── dashboard_app.py # Dashboard Streamlit
-├── requirements.txt # Dependências do projeto
-├── README.md # Documentação
-└── .gitignore
+analise_vendas/dados/vendas.csv
+analise_vendas.py   # Análise exploratória
+ml_simples.py       # Modelo de Machine Learning
+dashboard_app.py    # Dashboard Streamlit
+requirements.txt    # Dependências do projeto
+README.md           # Documentação
+.gitignore
 
 
 ## 📈 Machine Learning
