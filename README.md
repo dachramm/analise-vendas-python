@@ -25,3 +25,10 @@ Projeto de Ciência de Dados utilizando Python, Pandas, SQL e Machine Learning.
 ```bash
 source ~/venvs/datascience/bin/activate
 python scripts/analise.py
+
+## 📊 Dashboard
+Dashboard interativo criado com Streamlit e Plotly.
+
+Para executar localmente:
+```bash
+streamlit run dashboard_app.py
