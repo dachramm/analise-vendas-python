@@ -1,34 +1,46 @@
-# 📊 Análise de Vendas com Python
+# 📊 Análise de Vendas com Python e Ciência de Dados
 
-Projeto de Ciência de Dados utilizando Python, Pandas, SQL e Machine Learning.
+Projeto completo de **Ciência de Dados** utilizando Python para análise de planilhas, SQL, visualização de dados, Machine Learning e criação de um **dashboard interativo** com Streamlit.
 
-## 🔧 Tecnologias
-- Python
-- Pandas / NumPy
+Este repositório faz parte do meu aprendizado prático em **Data Science aplicado a negócios**.
+
+---
+
+## 🚀 Objetivos do Projeto
+- Analisar dados de vendas a partir de planilhas (CSV / Excel)
+- Realizar consultas SQL com SQLite
+- Criar modelos simples de Machine Learning
+- Visualizar dados de forma interativa
+- Construir um dashboard profissional
+- Versionar tudo com Git e GitHub
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- Python 3.10+
+- Pandas
+- NumPy
 - Matplotlib
-- SQLite
+- Seaborn
 - Scikit-learn
+- SQLite
+- SQLAlchemy
+- Streamlit
+- Git & GitHub
 
-## 📁 Estrutura
-- `data/`: dados brutos
-- `scripts/`: análises e modelos
-- `vendas.db`: banco SQLite
+---
 
-## 📈 Funcionalidades
-- Análise de planilhas (CSV)
-- Agregações com Pandas
-- Consultas SQL
-- Visualização de dados
-- Modelo simples de Machine Learning
+## 📂 Estrutura do Projeto
 
-## 🚀 Como executar
-```bash
-source ~/venvs/datascience/bin/activate
-python scripts/analise.py
+analise_vendas/
+│
+├── dados/
+│ └── vendas.csv
+│
+├── analise_vendas.py # Análise exploratória
+├── ml_simples.py # Modelo de Machine Learning
+├── dashboard_app.py # Dashboard Streamlit
+├── requirements.txt # Dependências do projeto
+├── README.md # Documentação
+└── .gitignore
 
-## 📊 Dashboard
-Dashboard interativo criado com Streamlit e Plotly.
-
-Para executar localmente:
-```bash
-streamlit run dashboard_app.py
