@@ -33,14 +33,22 @@ Este repositório faz parte do meu aprendizado prático em **Data Science aplica
 ## 📂 Estrutura do Projeto
 
 analise_vendas/
+
 │
 ├── dados/
 │ └── vendas.csv
-│
 ├── analise_vendas.py # Análise exploratória
 ├── ml_simples.py # Modelo de Machine Learning
 ├── dashboard_app.py # Dashboard Streamlit
 ├── requirements.txt # Dependências do projeto
 ├── README.md # Documentação
 └── .gitignore
+
+
+## 📈 Machine Learning
+Modelo de **Regressão Linear** para prever valor total de vendas com base em:
+- Quantidade
+- Preço unitário
+
+Exemplo de saída:
 
